@@ -36,5 +36,4 @@ app.all("*", (req, res) => { // Redirect other routes to single page web app
 
 app.listen(80, () => {
     console.log("App listening on 80");
-    rcon.initializeRcon();
 });

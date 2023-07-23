@@ -37,8 +37,7 @@ function casLogin(req, res, next) {
             if(loginError) {
                 return next(loginError);
             }
-            rcon.onUserLinked(user.netId, mcUsername);
-            return res.redirect("/success");
+            return rcon.onUserLinked(user.netId, mcUsername, res);
         });
     })(req, res, next);
 }

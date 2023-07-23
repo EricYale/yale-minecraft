@@ -4,7 +4,9 @@ body {
     font-family: "Mulish", sans-serif;
     margin: 10vh 30vw;
     text-align: center;
-    background: url(https://secure.its.yale.edu/cas/images/background.jpg);
+    background-image: url(/resources/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 h1 {
