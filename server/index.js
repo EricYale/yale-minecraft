@@ -4,6 +4,7 @@ const express = require("express");
 const session = require("express-session");
 const fs = require("fs");
 const path = require("path");
+const rcon = require("./rcon");
 const cas = require("./cas");
 
 fs.writeFile("linked-users.csv", "netId,mcUsername,timestamp\n", { flag: "wx" }, (err) => {
@@ -35,4 +36,5 @@ app.all("*", (req, res) => { // Redirect other routes to single page web app
 
 app.listen(80, () => {
     console.log("App listening on 80");
+    rcon.initializeRcon();
 });

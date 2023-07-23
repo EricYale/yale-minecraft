@@ -14,6 +14,7 @@
     "fs": "^0.0.1-security",
     "passport": "^0.6.0",
     "passport-cas": "github:coursetable/passport-cas",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "rcon-client": "^4.2.3"
   }
 }

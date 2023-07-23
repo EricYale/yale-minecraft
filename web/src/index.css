@@ -38,6 +38,24 @@ button {
 button:hover {
     background-color: #00234B;
 }
+button:disabled {
+    background-color: #CCCCCC;
+    cursor: default;
+}
+
+input {
+    border: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    margin: 10px;
+    width: 50%;
+}
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #00356B;
+}
 
 #text-container {
     background-color: #FFFFFFCC;
