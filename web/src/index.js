@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import "./index.css";
-import LoginCallbackPage from "./components/LoginCallbackPage";
+import SuccessPage from "./components/SuccessPage";
 
 const router = createBrowserRouter([
 	{
@@ -11,8 +11,8 @@ const router = createBrowserRouter([
 		element: <HomePage />,
 	},
 	{
-		path: "/result",
-		element: <LoginCallbackPage />,
+		path: "/success",
+		element: <SuccessPage />,
 	},
 ]);
 

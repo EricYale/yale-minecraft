@@ -11,8 +11,17 @@ h1 {
     font-size: 40px;
 }
 
-p {
+p, ul, ol {
     font-size: 20px;
+    line-height: 1.5;
+}
+
+ul, ol {
+    text-align: left;
+    display: inline-block;
+}
+li {
+    margin-bottom: 20px;
 }
 
 button {

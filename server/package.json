@@ -1,0 +1,19 @@
+{
+  "name": "yale-minecraft-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Yoonicode",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express-session": "^1.17.3",
+    "fs": "^0.0.1-security",
+    "passport": "^0.6.0",
+    "passport-cas": "github:coursetable/passport-cas",
+    "path": "^0.12.7"
+  }
+}

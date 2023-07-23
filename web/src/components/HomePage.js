@@ -1,11 +1,12 @@
-import React, { useCallback } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import TextContainer from "./TextContainer";
 
 export default function HomePage() {
+    const [mcUsername, setMcUsername] = useState("");
+    
     const casLogin = useCallback(() => {
-        const redirect = `${window.location.protocol}//${window.location.host}/result`;
-        window.location.href = `https://secure.its.yale.edu/cas/login?service=${encodeURIComponent(redirect)}`;
-    }, []);
+        window.location.href = `/api/cas?mcUsername=${"jared"}`;
+    }, [mcUsername]);
 
     return (
         <TextContainer>
