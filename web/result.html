@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Yale Minecraft Server</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="result.js"></script>
+    </head>
+    <body>
+        <div id="text-container">
+            <img src="resources/creeper.png" alt="Minecraft Creeper" id="minecraft-logo">
+            <div id="loading">
+                <h1>Hang tight...</h1>
+            </div>
+            <div id="ticket-failure" style="display: none;">
+                <h1>Invalid URL</h1>
+                <p>It looks like you tried to access this page directly. Please log in through the main page.</p>
+            </div>
+            <div id="ticket-success" style="display: none;">
+                <h1>Loading</h1>
+                <button onclick="validate()">Test</button>
+            </div>
+        </div>
+    </body>
+</html>

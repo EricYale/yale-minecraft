@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+body {
+    font-family: "Mulish", sans-serif;
+    margin: 10vh 30vw;
+    text-align: center;
+    background: url(https://secure.its.yale.edu/cas/images/background.jpg);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    background-color: #00356B;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #00234B;
+}
+
+#text-container {
+    background-color: #FFFFFFCC;
+    padding: 50px;
+    border-radius: 20px;
+}
+#minecraft-logo {
+    height: 100px;
+    border-radius: 10px;
+}
